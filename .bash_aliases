@@ -1,8 +1,8 @@
-alias gti='git'
-#alias tmux='tmux -2'
-alias less='less -R'
-alias diff='colordiff'
-alias dc='cd'
-alias nethack-online='ssh nethack@nethack.alt.org ; clear'
-alias tron-online='ssh sshtron.zachlatta.com ; clear'
-alias glog='git log --oneline --graph --color --all --decorate'
+#Aliases
+alias getpass="openssl rand -base64 20"
+alias ping='ping -c 5'
+alias c='clear'
+alias ..="cd .."
+alias reload="source ~/.bashrc"
+alias update='sudo apt update && sudo apt -y full-upgrade && sudo apt clean'
+alias jerkan='jekyll build -s /root/erkan -d /www/erkcet.com'
