@@ -1,0 +1,20 @@
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+[rebase]
+	autoStash = true
+[core]
+	editor = nano
+	excludesfile = /home/pi/.gitignore_global
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	lg = log --oneline --graph --decorate --all
+[user]
+	name = pi
+	email = pi@localhost
